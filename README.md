@@ -226,7 +226,7 @@ the SAM account name where available.
 ## License Details
 
 The license screen (option L) shows each assigned license with its friendly
-name (e.g. "Microsoft 365 E3") and a breakdown of which service plans are
+name (e.g. "Microsoft 365 G5") and a breakdown of which service plans are
 enabled, disabled, or pending. The script downloads a name mapping file from
 Microsoft on first use and caches it locally for 72 hours.
 
