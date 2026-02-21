@@ -207,11 +207,16 @@ The group screen (option G) shows only **AD-synced security groups**. Cloud-
 only groups and Teams are excluded by design — this is intentional so the
 list reflects on-premises access relevant to help desk work.
 
-The groups shown here are the ones that control access to on-premises
-resources: file shares, printers, and on-prem applications. Groups that
-only control cloud services — SharePoint Online permissions, Teams
-membership, cloud app assignments — will not appear here. If you need to
-check cloud group membership, use the M365 admin portal or escalate.
+The groups displayed are Active Directory security groups synced from
+on-premises. These groups control access to on-prem resources such as file
+shares, printers, and local applications, as well as cloud services and
+Microsoft 365 license assignments in our hybrid environment. Help desk staff
+can manage access and verify membership directly through AD.
+
+Groups that exist only in the cloud — including SharePoint Online
+permissions, Teams membership, and cloud app assignments — are not shown
+here. For cloud-only group membership, use the M365 Admin Portal or
+escalate as needed.
 
 Each group shows its type (Security, Distribution List, or M365 Group) and
 the SAM account name where available.
